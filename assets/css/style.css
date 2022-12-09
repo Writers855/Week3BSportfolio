@@ -8,6 +8,7 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
+    background-color: rgb(28, 216, 230);
   }
 
   h1 { font-family: 'Times New Roman', 'Georgia', 'Garamond';
@@ -16,7 +17,8 @@
   h2 {
 
   }
-  h3 {}
+  h3 {color: white;
+  }
   h4 {}
   h5 {
 
@@ -26,17 +28,21 @@
   }
 
 .titleMain {
-  color: rgb(122, 2, 2);
+  color: rgba(122, 2, 2, 0.897);
     display:flex;
     align-items:center;
     justify-content: center;
+}
+.title-me {
+  color: whitesmoke;
 }
 .jumbotron {
   background-image: url(../images/jumbotron-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  padding: 20px 0 !important;
+  height: 40vh;
+padding: none;
+margin-bottom: 0px !important;
 }
 .profileImg {
   max-height: 150px;
@@ -51,3 +57,24 @@
   align-items: flex-start;
   justify-content: center;
 }
+.nav-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+
+.subtitle {
+  background-image: url(../images/banner2.jpg);
+  height: 26vh;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display:flex;
+  justify-content: center;
+}
+  
+
+

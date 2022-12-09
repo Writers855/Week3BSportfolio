@@ -51,3 +51,10 @@
   align-items: flex-start;
   justify-content: center;
 }
+.nav-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+
+}

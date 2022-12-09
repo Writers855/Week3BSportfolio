@@ -35,4 +35,19 @@
   background-image: url(../images/jumbotron-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
+  padding: 20px 0 !important;
+}
+.profileImg {
+  max-height: 150px;
+  max-width: 150px;
+  height: 9%;
+  width: 9%;
+  border: 5px solid black;
+}
+.titleElements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }

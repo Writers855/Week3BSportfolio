@@ -76,7 +76,10 @@ margin-bottom: 0px !important;
   justify-content: center;
 }
 
-
+.row1 {
+  margin-top: 10%;
+  margin-left: 10%;
+}
 
 .contacts {
   margin-left: 50%;

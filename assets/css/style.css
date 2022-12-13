@@ -75,6 +75,10 @@ margin-bottom: 0px !important;
   display:flex;
   justify-content: center;
 }
+
+.contacts {
+  margin-left: 50%;
+}
   
 .footer {
   display: flex;

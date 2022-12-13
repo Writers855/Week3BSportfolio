@@ -75,6 +75,53 @@ margin-bottom: 0px !important;
   display:flex;
   justify-content: center;
 }
+
+.row1 {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.row2 {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.row3 {
+  margin-top: 3%;
+  margin-left: 33%;
+}
+
+.row4 {
+  margin-top: 3%;
+  margin-left: 33%;
+  margin-bottom: 3%;
+}
+
+.about-me {
+  color: aliceblue;
+  border-right: 3px solid black;
+  background-color: blue;
+  border-radius: 100%;
+}
+.work {
+  color: aliceblue;
+  border-right: 3px solid black;
+  background-color: blue;
+  border-radius: 100%;
+}
+
+.contacts {
+  margin-left: 50%;
+}
   
+.footer {
+  display: flex;
+  justify-content: center;
+}
 
-
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      
+    }
+    .icons {
+      margin-left: auto;
+    }
+}

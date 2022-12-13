@@ -26,6 +26,7 @@
   }
   h5 {font-family: 'Times New Roman', 'Georgia', 'Garamond';
     font-size: 3vw;
+    font-weight: bold;
 
   }
   h6 {font-family: 'Times New Roman', 'Georgia', 'Garamond';
@@ -86,7 +87,9 @@ margin-bottom: 0px !important;
   display:flex;
   justify-content: center;
 }
-
+.button1 {
+  margin-left: 45%;
+}
 .row1 {
   margin-top: 10%;
   margin-left: 10%;
